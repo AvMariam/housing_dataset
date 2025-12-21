@@ -4,7 +4,7 @@ This project is designed to **scrape, clean, geocode, and process house-related 
 
 ---
 
-## Project Structure
+## Project requirements & pre-processing
 
 1) Install the Requirements via
 
@@ -20,4 +20,19 @@ Run find_district.py to extract or enrich the dataset with district-level inform
 
 ```python find_district.py```
 
-4) Use the cleaning.ipynb notebook to clean the raw data and save the resulting dataset to `data/cleaned_data.csv`.
+4) Use the `cleaning.ipynb` notebook to clean the raw data and save the resulting dataset to `data/cleaned_data.csv`.
+
+## Project structure
+
+* [cleaning.ipynb](cleaning.ipynb) includes initial processing of the data:
+    * removing duplicates
+    * removing null_values
+    * converting values to numerical
+    * e.t.c
+* [processing.ipynb](processing.ipynb) includes further processing of the data:
+    * encoding of categorical values
+* [eda.ipynb](eda.ipynb) includes the Exploratory Data Analysis:
+    * Missing value analysis
+    * Plotting feature distributions
+    * Feature correlation analysis
+    * Outlier detection
