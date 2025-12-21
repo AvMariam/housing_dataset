@@ -1,0 +1,8 @@
+pandas==2.3.3
+selenium==4.39.0
+webdriver-manager==4.0.2
+tqdm==4.67.1
+geopandas==1.1.1
+matplotlib==3.10.8
+seaborn==0.13.2
+python-dotenv==1.2.1
